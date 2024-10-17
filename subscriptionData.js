@@ -32,9 +32,9 @@ const subscriptionData = [
     {
         id: 4,
         name: "itxiaozhang.com",
-        cost: 14,
+        cost: 10.44,
         currency: "USD",
-        renewalDate: "2024-11-30",
+        renewalDate: "2025-11-30",
         billingCycle: "年付",
         status: "活跃",
         notes: "域名"
