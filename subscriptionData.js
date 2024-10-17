@@ -7,7 +7,7 @@ const subscriptionData = [
         renewalDate: "2024-12-01",
         billingCycle: "月付",
         status: "活跃",
-        notes: "手机话费"
+        category: "手机话费"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const subscriptionData = [
         renewalDate: "2025-03-01",
         billingCycle: "月付",
         status: "活跃",
-        notes: "手机话费"
+        category: "手机话费"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const subscriptionData = [
         renewalDate: "2025-04-01",
         billingCycle: "月付",
         status: "活跃",
-        notes: "手机话费"
+        category: "手机话费"
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ const subscriptionData = [
         renewalDate: "2025-11-30",
         billingCycle: "年付",
         status: "活跃",
-        notes: "域名"
+        category: "域名"
     },
     {
         id: 5,
@@ -45,9 +45,9 @@ const subscriptionData = [
         cost: 3,
         currency: "CNY",
         renewalDate: "2024-11-20",
-        billingCycle: "月付",
+        billingCycle: "5月付",
         status: "活跃",
-        notes: "手机话费"
+        category: "手机话费"
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ const subscriptionData = [
         renewalDate: "2024-11-30",
         billingCycle: "年付",
         status: "活跃",
-        notes: "VPS"
+        category: "VPS"
     },
     {
         id: 7,
@@ -67,17 +67,17 @@ const subscriptionData = [
         renewalDate: "2025-03-18",
         billingCycle: "年付",
         status: "活跃",
-        notes: "VPS"
+        category: "VPS"
     },
     {
         id: 8,
-        name: "节点2年付",
+        name: "魔法2",
         cost: 59.99,
         currency: "CNY",
         renewalDate: "2025-05-07",
-        billingCycle: "2年付",
+        billingCycle: "年付",
         status: "活跃",
-        notes: "节点"
+        category: "魔法"
     },
     {
         id: 9,
@@ -87,7 +87,7 @@ const subscriptionData = [
         renewalDate: "2025-07-15",
         billingCycle: "年付",
         status: "活跃",
-        notes: "域名"
+        category: "域名"
     },
     {
         id: 10,
@@ -97,6 +97,6 @@ const subscriptionData = [
         renewalDate: "2025-06-26",
         billingCycle: "年付",
         status: "活跃",
-        notes: "域名"
+        category: "域名"
     }
 ];
