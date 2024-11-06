@@ -42,7 +42,9 @@
       </div>
       <div class="info-item">
         <span class="label">状态</span>
-        <span class="status-tag" class:urgent>{subscription.status}</span>
+        <div class="status-wrapper">
+          <span class="status-tag" class:urgent>{subscription.status}</span>
+        </div>
       </div>
     </div>
   </div>
@@ -120,26 +122,27 @@
 
   .info-row {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
   }
 
   .info-item {
     display: flex;
     flex-direction: column;
-    gap: 0.375rem;
+    gap: 0.5rem;
   }
 
   .label {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     color: var(--text-light);
+    font-weight: 500;
   }
 
   .renewal-info {
     background: var(--bg);
     border-radius: var(--radius);
-    padding: 0.5rem;
-    font-size: 0.875rem;
+    padding: 0.75rem;
+    border: 1px solid var(--border-light);
   }
 
   .renewal-info.urgent {
@@ -149,26 +152,38 @@
 
   .date {
     display: block;
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--text-dark);
     margin-bottom: 0.25rem;
   }
 
   .days-left {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     color: var(--text-light);
   }
 
+  .status-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
   .status-tag {
+    width: 100%;
     display: inline-block;
-    padding: 0.5rem;
+    padding: 0.75rem;
     background: var(--primary-light);
     color: var(--surface);
     border-radius: var(--radius);
     font-size: 0.875rem;
     text-align: center;
+    font-weight: 500;
+    border: 1px solid transparent;
   }
 
   .status-tag.urgent {
-    background: var(--urgent-border);
+    background: var(--urgent-bg);
+    color: var(--urgent-border);
+    border-color: var(--urgent-border);
   }
 </style>
