@@ -47,8 +47,8 @@ const initialSubscriptions: Subscription[] = [
     name: "giffgaff卡-短信保号",
     cost: 3,
     currency: "CNY",
-    renewalDate: "2024-11-20",
-    billingCycle: "5月付",
+    renewalDate: "2025-05-01",
+    billingCycle: "6月付",
     status: "活跃",
     category: "手机话费"
   },
