@@ -101,6 +101,16 @@ const initialSubscriptions: Subscription[] = [
     billingCycle: "年付",
     status: "活跃",
     category: "会员"
+  },
+  {
+    id: 12,
+    name: "ToDesk专业版",
+    cost: 136,
+    currency: "CNY",
+    renewalDate: "2025-12-12",
+    billingCycle: "年付",
+    status: "活跃",
+    category: "软件"
   }
 ];
 
