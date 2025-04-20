@@ -27,7 +27,7 @@ const initialSubscriptions: Subscription[] = [
     name: "话费863",
     cost: 8,
     currency: "CNY",
-    renewalDate: "2025-10-01",
+    renewalDate: "2025-04-01",
     billingCycle: "月付",
     status: "活跃",
     category: "手机话费"
@@ -47,7 +47,7 @@ const initialSubscriptions: Subscription[] = [
     name: "giffgaff卡-短信保号",
     cost: 3,
     currency: "CNY",
-    renewalDate: "2025-05-01",
+    renewalDate: "2025-11-01",
     billingCycle: "6月付",
     status: "活跃",
     category: "手机话费"
@@ -55,9 +55,9 @@ const initialSubscriptions: Subscription[] = [
   {
     id: 7,
     name: "Bandwagon主机",
-    cost: 34.49,
+    cost: 49,
     currency: "USD",
-    renewalDate: "2026-03-01",
+    renewalDate: "2025-03-18",
     billingCycle: "年付",
     status: "活跃",
     category: "VPS"
@@ -67,7 +67,7 @@ const initialSubscriptions: Subscription[] = [
     name: "魔法2",
     cost: 59.99,
     currency: "CNY",
-    renewalDate: "2025-05-07",
+    renewalDate: "2026-05-07",
     billingCycle: "年付",
     status: "活跃",
     category: "魔法"
