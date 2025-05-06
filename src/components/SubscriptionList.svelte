@@ -16,13 +16,25 @@
 <style>
   .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1024px) {
+    .card-container {
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
   }
 
   @media (max-width: 768px) {
     .card-container {
       grid-template-columns: 1fr;
+      gap: 1.25rem;
+      padding: 0.75rem;
     }
   }
 </style>

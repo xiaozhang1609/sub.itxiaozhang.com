@@ -27,7 +27,7 @@ const initialSubscriptions: Subscription[] = [
     name: "话费863",
     cost: 8,
     currency: "CNY",
-    renewalDate: "2025-04-01",
+    renewalDate: "2025-11-01",
     billingCycle: "月付",
     status: "活跃",
     category: "手机话费"
@@ -53,17 +53,17 @@ const initialSubscriptions: Subscription[] = [
     category: "手机话费"
   },
   {
-    id: 7,
+    id: 6,
     name: "Bandwagon主机",
-    cost: 49,
+    cost: 34.5,
     currency: "USD",
-    renewalDate: "2025-03-18",
+    renewalDate: "2026-03-02",
     billingCycle: "年付",
     status: "活跃",
     category: "VPS"
   },
   {
-    id: 8,
+    id: 7,
     name: "魔法2",
     cost: 59.99,
     currency: "CNY",
@@ -73,27 +73,7 @@ const initialSubscriptions: Subscription[] = [
     category: "魔法"
   },
   {
-    id: 9,
-    name: "fixpc.cc",
-    cost: 8,
-    currency: "USD",
-    renewalDate: "2025-07-15",
-    billingCycle: "年付",
-    status: "活跃",
-    category: "域名"
-  },
-  {
-    id: 10,
-    name: "gwang.top",
-    cost: 4.88,
-    currency: "USD",
-    renewalDate: "2025-06-26",
-    billingCycle: "年付",
-    status: "活跃",
-    category: "域名"
-  },
-  {
-    id: 11,
+    id: 8,
     name: "B站会员",
     cost: 148,
     currency: "CNY",
@@ -103,7 +83,7 @@ const initialSubscriptions: Subscription[] = [
     category: "会员"
   },
   {
-    id: 12,
+    id: 9,
     name: "ToDesk专业版",
     cost: 136,
     currency: "CNY",
