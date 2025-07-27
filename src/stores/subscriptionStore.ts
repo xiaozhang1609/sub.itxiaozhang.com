@@ -29,7 +29,7 @@ const initialSubscriptions: Subscription[] = [
     currency: "CNY",
     renewalDate: "2025-10-01",
     billingCycle: "月付",
-    status: "活跃",
+    status: "10月换套餐",
     category: "手机话费"
   },
   {
@@ -55,9 +55,9 @@ const initialSubscriptions: Subscription[] = [
   {
     id: 7,
     name: "Bandwagon主机",
-    cost: 49,
+    cost: 34.5,
     currency: "USD",
-    renewalDate: "2025-03-18",
+    renewalDate: "2026-03-02",
     billingCycle: "年付",
     status: "活跃",
     category: "VPS"
@@ -71,26 +71,6 @@ const initialSubscriptions: Subscription[] = [
     billingCycle: "年付",
     status: "活跃",
     category: "魔法"
-  },
-  {
-    id: 9,
-    name: "fixpc.cc",
-    cost: 8,
-    currency: "USD",
-    renewalDate: "2025-07-15",
-    billingCycle: "年付",
-    status: "活跃",
-    category: "域名"
-  },
-  {
-    id: 10,
-    name: "gwang.top",
-    cost: 4.88,
-    currency: "USD",
-    renewalDate: "2025-06-26",
-    billingCycle: "年付",
-    status: "活跃",
-    category: "域名"
   },
   {
     id: 11,
