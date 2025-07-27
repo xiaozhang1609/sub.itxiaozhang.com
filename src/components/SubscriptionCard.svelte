@@ -53,33 +53,20 @@
 <style>
   .card {
     background: var(--surface);
-    border-radius: var(--radius-lg);
-    padding: 1.5rem;
+    border-radius: var(--radius);
+    padding: 1.25rem;
     box-shadow: var(--shadow);
     transition: var(--transition);
     border: 1px solid var(--border-light);
-    position: relative;
-    overflow: hidden;
   }
 
   .card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-xl);
-    background: var(--surface-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
   }
 
   .card.urgent {
-    border: 1px solid var(--urgent-border);
-  }
-
-  .card.urgent::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4px;
-    height: 100%;
-    background: var(--urgent-gradient);
+    border-left: 4px solid var(--urgent-border);
   }
 
   .card-header {
@@ -110,32 +97,27 @@
 
   .category-tag {
     font-size: 0.75rem;
-    background: var(--primary-gradient);
+    background: var(--primary-light);
     color: var(--surface);
-    padding: 0.375rem 0.75rem;
+    padding: 0.25rem 0.5rem;
     border-radius: var(--radius);
-    font-weight: 500;
-    letter-spacing: 0.025em;
   }
 
   .cycle-tag {
     font-size: 0.75rem;
-    background: var(--secondary-gradient);
+    background: var(--secondary-light);
     color: var(--surface);
-    padding: 0.375rem 0.75rem;
+    padding: 0.25rem 0.5rem;
     border-radius: var(--radius);
-    font-weight: 500;
-    letter-spacing: 0.025em;
   }
 
   .cost-badge {
-    background: var(--primary-gradient);
+    background: var(--primary-dark);
     color: var(--surface);
-    padding: 0.75rem 1rem;
-    border-radius: var(--radius-lg);
-    font-weight: 700;
-    font-size: 1.25rem;
-    box-shadow: var(--shadow);
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+    font-size: 1.125rem;
   }
 
   .info-row {
