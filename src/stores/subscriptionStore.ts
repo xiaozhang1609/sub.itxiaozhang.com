@@ -7,7 +7,7 @@ const initialSubscriptions: Subscription[] = [
     name: "话费605",
     cost: 25,
     currency: "CNY",
-    renewalDate: "2025-12-01", // 从2025-04-01延长8个月
+    renewalDate: "2026-04-01", 
     billingCycle: "月付",
     status: "活跃",
     category: "手机话费"
@@ -27,7 +27,7 @@ const initialSubscriptions: Subscription[] = [
     name: "话费863",
     cost: 38,
     currency: "CNY",
-    renewalDate: "2025-10-01",
+    renewalDate: "2025-12-01",
     billingCycle: "月付",
     status: "10月换套餐",
     category: "手机话费"
@@ -37,7 +37,7 @@ const initialSubscriptions: Subscription[] = [
     name: "itxiaozhang.com",
     cost: 10.44,
     currency: "USD",
-    renewalDate: "2025-11-30",
+    renewalDate: "2028-11-30",
     billingCycle: "年付",
     status: "活跃",
     category: "域名"
@@ -47,8 +47,8 @@ const initialSubscriptions: Subscription[] = [
     name: "giffgaff卡-短信保号",
     cost: 3,
     currency: "CNY",
-    renewalDate: "2025-11-01",
-    billingCycle: "6月付",
+    renewalDate: "2026-02-01",
+    billingCycle: "3月付",
     status: "活跃",
     category: "手机话费"
   },
@@ -87,7 +87,7 @@ const initialSubscriptions: Subscription[] = [
     name: "ToDesk专业版",
     cost: 136,
     currency: "CNY",
-    renewalDate: "2025-12-12",
+    renewalDate: "2026-12-12",
     billingCycle: "年付",
     status: "活跃",
     category: "软件"
@@ -108,7 +108,7 @@ function createSubscriptionStore() {
       subscriptions: store.subscriptions.filter(s => s.id !== id)
     })),
     updateSubscription: (subscription: Subscription) => update(store => ({
-      subscriptions: store.subscriptions.map(s => 
+      subscriptions: store.subscriptions.map(s =>
         s.id === subscription.id ? subscription : s
       )
     }))
